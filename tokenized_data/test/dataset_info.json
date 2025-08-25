@@ -1,0 +1,58 @@
+{
+  "builder_name": "text",
+  "citation": "",
+  "config_name": "default",
+  "dataset_name": "text",
+  "dataset_size": 8092,
+  "description": "",
+  "download_checksums": {
+    "D:/LLM/LLM_fine_tuning_project/raw_data.txt": {
+      "num_bytes": 4004,
+      "checksum": null
+    }
+  },
+  "download_size": 4004,
+  "features": {
+    "text": {
+      "dtype": "string",
+      "_type": "Value"
+    },
+    "input_ids": {
+      "feature": {
+        "dtype": "int32",
+        "_type": "Value"
+      },
+      "_type": "Sequence"
+    },
+    "attention_mask": {
+      "feature": {
+        "dtype": "int8",
+        "_type": "Value"
+      },
+      "_type": "Sequence"
+    }
+  },
+  "homepage": "",
+  "license": "",
+  "size_in_bytes": 12096,
+  "splits": {
+    "train": {
+      "name": "train",
+      "num_bytes": 4046,
+      "num_examples": 20,
+      "dataset_name": "text"
+    },
+    "test": {
+      "name": "test",
+      "num_bytes": 4046,
+      "num_examples": 20,
+      "dataset_name": "text"
+    }
+  },
+  "version": {
+    "version_str": "0.0.0",
+    "major": 0,
+    "minor": 0,
+    "patch": 0
+  }
+}
